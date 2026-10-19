@@ -56,6 +56,7 @@ public class lab2 {
         //c
         xMinusY.addAll(x);
         xMinusY.removeAll(y);
+        Collections.sort(xMinusY);
         System.out.println("Elem care exista doar in x: \n"+xMinusY+" ");
 
         //d
@@ -68,7 +69,8 @@ public class lab2 {
         xPlusYLimitedByP.addAll(set);
         System.out.println("Valorile din x si y mai mici decat "+p+": \n"+set+" ");
 
-        //2.7.2
+
+
 
     }
 }
